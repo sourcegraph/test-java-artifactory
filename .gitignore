@@ -1,0 +1,35 @@
+
+# Ignore Gradle build output directory
+build/
+
+# Ignore Gradle wrapper files
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Ignore Gradle build cache
+.gradle/
+
+# Ignore IDE config files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore local configuration file
+local.properties
+
+# Ignore compiled class files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven wrapper
+.mvn/wrapper/
