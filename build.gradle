@@ -20,7 +20,7 @@ plugins {
 allprojects {
     repositories {
         maven {
-            url "http://13.42.48.131/artifactory/libs-release-local"
+            url "https://private-cloud-demo-artifactory.sg.dev/artifactory/libs-release-local"
             allowInsecureProtocol = true
             credentials {
                 username = "${artifactoryUsername}" // The publisher user name
@@ -53,7 +53,7 @@ publishing {
 }
 
 artifactory {
-    contextUrl = 'https://13.42.48.131/artifactory'
+    contextUrl = 'http://34.204.212.68/artifactory'
     publish {
         repository {
             repoKey = 'libs-release-local' // The Artifactory repository key to publish to
